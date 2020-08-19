@@ -8,7 +8,8 @@
     "build": "next build",
     "both": "next build && next start",
     "start": "next start",
-    "postbuild": "next-on-netlify"
+    "postbuild": "next-on-netlify",
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
